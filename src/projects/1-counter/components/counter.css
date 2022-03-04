@@ -1,0 +1,74 @@
+.counter {
+  grid-area: thecounter;
+}
+
+.desc {
+  grid-area: thedesc;
+}
+
+.code {
+  grid-area: thecode;
+}
+
+.container {
+  text-align: center;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: 1fr 2fr 1fr;
+  background: #c91b1b;
+  color: wheat;
+  height: 600px;
+  /* width: 100%; */
+  border: 15px solid black;
+  grid-template-areas: "thecounter thedesc thecode";
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-areas:
+      "thecounter"
+      "thedesc"
+      "thecode";
+  }
+  .counter {
+    font-size: 1rem;
+  }
+  .desc {
+    font-size: 0.8rem;
+    background: #c91b1b;
+  }
+  .desc a {
+    display: inline-block;
+    text-align: center;
+    display: block;
+  }
+}
+
+button {
+  font-size: 28px;
+  margin: 15px;
+  color: wheat;
+  background: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 80px;
+}
+
+button:hover {
+  background: rgb(236, 236, 236);
+  border-color: rgb(0, 0, 0);
+  color: #000000;
+  cursor: pointer;
+}
+
+a {
+  font-size: 33px;
+  display: block;
+  width: 80px;
+  margin: auto;
+  background: wheat;
+  text-decoration: none;
+}
