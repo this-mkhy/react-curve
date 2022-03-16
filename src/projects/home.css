@@ -11,11 +11,12 @@
   height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-top: 20px;
+  /* justify-content: space-around; */
+  justify-content: flex-start;
+  margin-top: 30px;
 }
 
 .box-1 {
-  width: 25%;
+  width: 28%;
   height: 50%;
 }

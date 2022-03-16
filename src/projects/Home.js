@@ -3,7 +3,7 @@ import Intro from './0-Intro/components/Intro';
 import counterGif from '../assets/counter.gif'
  
 import { Link } from "react-router-dom";
-import './home.css'
+import './home.css' 
 
 class Home extends Component{
 
@@ -21,6 +21,7 @@ class Home extends Component{
             </Link>
           </div>
         </div>  
+ 
       </div>
     );
   }

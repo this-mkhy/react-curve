@@ -1,9 +1,13 @@
 .counter {
   grid-area: thecounter;
+  margin-top: 20px;
+
 }
 
 .desc {
   grid-area: thedesc;
+  margin-top: 20px;
+
 }
 
 .code {
@@ -17,10 +21,22 @@
   grid-template-columns: 1fr 2fr 1fr;
   background: #c91b1b;
   color: wheat;
-  height: 600px;
+  height: 700px;
   /* width: 100%; */
-  border: 15px solid black;
+  /* border: 15px solid black; */
   grid-template-areas: "thecounter thedesc thecode";
+}
+
+@media (max-width: 1200px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "thecounter thedesc" 
+      "thecode thecode";
+  }
+  .desc, .code {
+    background: #c91b1b;    
+  }
 }
 
 @media (max-width: 700px) {
@@ -29,18 +45,18 @@
       "thecounter"
       "thedesc"
       "thecode";
+    background: #c91b1b; 
+
   }
   .counter {
-    font-size: 1rem;
+    font-size: 2rem; 
+    /* background: #c91b1b;  */
+
   }
   .desc {
-    font-size: 0.8rem;
-    background: #c91b1b;
-  }
-  .desc a {
-    display: inline-block;
-    text-align: center;
-    display: block;
+    font-size: .9rem;
+    /* background: #c91b1b;  */
+
   }
 }
 

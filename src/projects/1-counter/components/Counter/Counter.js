@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Code from './Code';
-import Desc from './Desc';
+import Code from '../Code/Code';
+import Desc from '../Desc/Desc';
 import './counter.css'
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,7 @@ function Counter () {
 
   const increment = () => setCount(count + 1);
   const decrement = () => setCount(count - 1);
-
+ 
   return (
     <div className="container">
       <div className="counter">

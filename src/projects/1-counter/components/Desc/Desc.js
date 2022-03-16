@@ -19,7 +19,7 @@ class Desc extends Component {
                 </ul>
             </div>
         )
-    }
+    } 
 }
 
 export default Desc 
