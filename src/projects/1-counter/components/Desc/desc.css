@@ -3,6 +3,10 @@
   text-align: left;
 }
 
+.desc h3{
+  margin-top: 33px;
+}
+
 ul {
   font-size: 22px;
   line-height: 40px;
