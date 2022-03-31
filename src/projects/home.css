@@ -19,4 +19,28 @@
 .box-1 {
   width: 28%;
   height: 50%;
+  /* border: 2px dotted red; */
+  /* max-width: 300px;
+  max-height: 80px; */
+}
+
+@media screen and (max-width: 1275px) {
+  .box-1 {
+    width: 80%;
+    height: 90%;
+  }
+}
+
+/* Mobile First */
+@media screen and (max-width: 575px) {
+  .box-container {
+    flex-direction: column;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .box-container {
+    display: block;
+  }
 }

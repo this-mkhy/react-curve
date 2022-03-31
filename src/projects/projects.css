@@ -1,0 +1,78 @@
+/* Main component styles - Left component*/
+/* projectName is like counter and displayColors*/
+.projectName {
+  /* theProjectName is like thecounter */
+  grid-area: theProjectName;
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  margin: 25px;
+  list-style-type: none;
+  background: black;
+  /* border: 4px dotted #34495e; */
+}
+
+.description {
+  grid-area: theDesc;
+  margin-top: 13px;
+}
+
+.codeRight {
+  grid-area: theCode;
+}
+
+.container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  color: wheat;
+  height: 700px;
+  grid-template-areas: "theProjectName theDesc theCode";
+}
+
+@media (max-width: 1200px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "theProjectName theDesc"
+      "theCode theCode";
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-areas:
+      "theProjectName"
+      "theDesc"
+      "theCode";
+  }
+  .projectName {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+/* ******************** */
+/* Desc component styles */
+
+.desc {
+  color: wheat;
+  text-align: left;
+}
+
+.desc h3 {
+  margin-top: 33px;
+  border: 4px dotted #34495e;
+  padding: 8px;
+  text-align: center;
+}
+
+ul {
+  line-height: 40px;
+}
+
+#list {
+  background: #34495e;
+}
