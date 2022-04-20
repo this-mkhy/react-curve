@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Intro from './0-Intro/Intro';
 import counterGif from '../assets/counter.gif'
 import colorsGif from '../assets/colors.gif'
+import toggleGif from '../assets/toggle.gif'
  
 import { Link } from "react-router-dom";
 import './home.css' 
@@ -26,7 +27,11 @@ class Home extends Component{
               <img src={colorsGif} alt="colors Gif2"/>
             </Link>
           </div>
-
+          <div className="box-1">
+            <Link to="toggle">
+              <img src={toggleGif} alt="toggle Gif3"/>
+            </Link>
+          </div>
         </div>  
  
       </div>

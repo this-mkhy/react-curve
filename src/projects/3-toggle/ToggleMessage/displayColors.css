@@ -1,0 +1,9 @@
+.currColor {
+  padding: 15px;
+  margin: 7px;
+}
+
+#curr:hover {
+  font-size: 15px;
+  cursor: pointer;
+}
