@@ -12,10 +12,10 @@ class Desc extends Component {
                 <ul style={{ fontSize: '20px'}}>
                     <li>Create a state that holds the button status</li>
                     <li>The button status either is shown or not</li>
-                    <li>When click on the button, fire the <span id='list'>setShow</span> method</li>
-                    <li><span id='list'>setShow</span> method reverse current <span id='list'>show</span> state</li>
-                    <li>if <span id='list'>show</span> state is true, show <span id='list'>&lt;h2&gt;</span> on the screen and toggle "Hide Welcome" on the button</li>
-                    <li>if <span id='list'>show</span> state is false, Don't show the message on the screen and toggle "Show Welcome" on the button</li>
+                    <li>When clicking on the button, fire the <span id='list'>setShow</span> method</li>
+                    <li><span id='list'>setShow</span> method reverses the current <span id='list'>show</span> state</li>
+                    <li>if the <span id='list'>show</span> state is true, show <span id='list'>&lt;h2&gt;</span> on the screen and toggle "Hide Welcome" on the button</li>
+                    <li>if the <span id='list'>show</span> state is false, Don't show the message on the screen and toggle "Show Welcome" on the button</li>
                     
                 </ul>
             </div>
