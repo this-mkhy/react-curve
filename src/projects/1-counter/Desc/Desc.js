@@ -7,6 +7,7 @@ class Desc extends Component {
         return (
             <div className="desc">
                 <h1 style={{color: '#3498db'}}>How to code the counter ?</h1> 
+                <mark>Posted on Mar 16, 2022</mark>
                 <h3>Remember this concept, <br />Start s-m-a-l-l to create something BIG</h3>
                 <p>To create a counter component, We have to : </p>
                 <ul style={{ fontSize: '22px'}}>

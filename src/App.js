@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Counter from './projects/1-counter/Counter/Counter';
 import DisplayColors from './projects/2-display-colors/DisplayColors/DisplayColors';
 import ToggleMessage from './projects/3-toggle/ToggleMessage/ToggleMessage';
+import HandleInput from './projects/4-handle-input/HandleInput/HandleInput';
 
 class App extends Component{
    
@@ -15,6 +16,7 @@ class App extends Component{
           <Route exact path="/counter" element={<Counter />}></Route>
           <Route exact path="/colors" element={<DisplayColors />}></Route>
           <Route exact path="/toggle" element={<ToggleMessage />}></Route>
+          <Route exact path="/handle-input" element={<HandleInput />}></Route>
         </Routes> 
       </div>
     );

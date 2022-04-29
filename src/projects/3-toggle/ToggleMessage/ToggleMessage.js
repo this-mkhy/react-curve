@@ -5,7 +5,7 @@ import Code from '../Code/Code';
 import Desc from '../Desc/Desc';
 
 import './../../projects.css' 
-import './displayColors.css' 
+import './toggleMessage.css' 
 
 //Show AND Hide
 
