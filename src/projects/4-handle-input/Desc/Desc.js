@@ -6,7 +6,7 @@ class Desc extends Component {
     render() {
         return (
             <div className="desc">
-                <h1 style={{color: '#3498db'}}>How to toggle ?</h1> 
+                <h1 style={{color: '#3498db'}}>How to handle input ?</h1> 
                 <mark>Posted on Apr 30, 2022</mark>
                 <h3>Remember this concept, <br />Start s-m-a-l-l to create something BIG</h3>
                 <p>To create a HandleInput component. We have to : </p>
