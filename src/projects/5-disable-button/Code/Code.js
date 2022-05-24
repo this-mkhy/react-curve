@@ -4,7 +4,7 @@ class Code extends Component {
     render() {
         return (
             <div className="code">
-                <img height={680} width={500} src="https://i.imgur.com/AlwmSls.png" alt="this is counter code" />
+                <img height={680} width={500} src="https://i.imgur.com/doKABdj.png" alt="this is counter code" />
             </div>
         )
     }

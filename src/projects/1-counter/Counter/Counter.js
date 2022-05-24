@@ -62,9 +62,9 @@ class Counter extends Component{
       <div className="container">
         <div className="projectName">
           <h2 style={{fontSize: '30px', color: '#3498db', marginTop: '10px'}}>Counter</h2>
-          <button onClick={this.increment}>Increase + </button>
+          <button className="counterBtn" onClick={this.increment}>Increase + </button>
           <h2 className="counterNumber">{this.state.count}</h2>
-          <button onClick={this.decrement}>Decrease - </button>
+          <button className="counterBtn" onClick={this.decrement}>Decrease - </button>
         </div>
         <div className="description">
           <Desc />

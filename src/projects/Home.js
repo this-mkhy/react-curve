@@ -3,8 +3,9 @@ import Intro from './0-Intro/Intro';
 import counterGif from '../assets/counter.gif'
 import colorsGif from '../assets/colors.gif'
 import toggleGif from '../assets/toggle.gif'
-import handleInput from '../assets/handleInput.gif'
- 
+import inputGif from '../assets/handleInput.gif'
+import disableGif from '../assets/disableBtn.gif'
+
 import { Link } from "react-router-dom";
 import './home.css' 
 
@@ -48,7 +49,15 @@ class Home extends Component{
           <div className="box-1">
             <div className="box">
               <Link to="handle-input">
-                <img src={handleInput} alt="handleInput Gif1"/>
+                <img src={inputGif} alt="handleInput Gif1"/>
+              </Link>
+            </div>
+          </div>
+
+          <div className="box-1">
+            <div className="box">
+              <Link to="disable-submit">
+                <img src={disableGif} alt="disableBtn Gif1"/>
               </Link>
             </div>
           </div>
