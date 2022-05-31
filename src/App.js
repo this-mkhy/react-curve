@@ -6,6 +6,7 @@ import DisplayColors from './projects/2-display-colors/DisplayColors/DisplayColo
 import ToggleMessage from './projects/3-toggle/ToggleMessage/ToggleMessage';
 import HandleInput from './projects/4-handle-input/HandleInput/HandleInput';
 import DisableButton from './projects/5-disable-button/DisableButton/DisableButton'
+import SumTwoNum from './projects/6-sumTwoNum/SumTwoNum/SumTwoNum'
 
 class App extends Component{
    
@@ -19,6 +20,7 @@ class App extends Component{
           <Route exact path="/toggle" element={<ToggleMessage />}></Route>
           <Route exact path="/handle-input" element={<HandleInput />}></Route>
           <Route exact path="/disable-submit" element={<DisableButton />}></Route>
+          <Route exact path="/summation" element={<SumTwoNum />}></Route>
         </Routes> 
       </div>
     );

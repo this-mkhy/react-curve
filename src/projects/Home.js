@@ -62,6 +62,13 @@ class Home extends Component{
             </div>
           </div>
 
+          <div className="box-1">
+            <div className="box">
+              <Link to="summation">
+                <img src="https://i.imgur.com/rWOzyea.gif" alt="summation Gif1"/>
+              </Link>
+            </div>
+          </div>
         </div>  
       </div>
     );

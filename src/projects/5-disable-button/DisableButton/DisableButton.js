@@ -26,7 +26,7 @@ const DisableButton = () => {
             </div>
             <div className="description">
                 <Desc />
-                <Link to="/">Home</Link>
+                <Link className='homeLink' to="/">Home</Link>
             </div> 
             <div className="codeRight">
                 <Code />
