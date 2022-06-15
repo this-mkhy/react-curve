@@ -3,3 +3,22 @@
     background: #000000;
     color: rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 775px) {
+    .intro h1 {
+      font-size: 25px;
+    }    
+    .intro p {
+        font-size: 15px;
+    }
+  
+}
+
+/* @media screen and (max-width: 975px) {
+    .intro h1 {
+        font-size: 55px;
+    }    
+    .intro p {
+        font-size: 30px;
+    }
+} */

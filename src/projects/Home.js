@@ -19,7 +19,7 @@ class Home extends Component{
         </div>
 
         <div className="box-container">  
-          <div className="box-1">
+          <div className="box-1 boxing">
             <div className="box">
               <Link to="counter">
                 <img src={counterGif} alt="Counter Gif1"/> 
@@ -27,7 +27,7 @@ class Home extends Component{
             </div>
           </div>
           
-          <div className="box-1">
+          <div className="box-1 boxing">
             <div className="box">
               <Link to="colors">
                 <img src={colorsGif} alt="colors Gif2"/>
@@ -35,7 +35,7 @@ class Home extends Component{
             </div>
           </div>
 
-          <div className="box-1">
+          <div className="box-1 boxing">
             <div className="box">
               <Link to="toggle">
                 <img src={toggleGif} alt="toggle Gif3"/> 
@@ -46,7 +46,7 @@ class Home extends Component{
         </div>  
  
         <div className="box-container">  
-          <div className="box-1">
+          <div className="box-1 boxing">
             <div className="box">
               <Link to="handle-input">
                 <img src={inputGif} alt="handleInput Gif1"/>
@@ -54,7 +54,7 @@ class Home extends Component{
             </div>
           </div>
 
-          <div className="box-1">
+          <div className="box-1 boxing">
             <div className="box">
               <Link to="disable-submit">
                 <img src={disableGif} alt="disableBtn Gif1"/>
@@ -62,7 +62,7 @@ class Home extends Component{
             </div>
           </div>
 
-          <div className="box-1">
+          <div className="box-1 boxing">
             <div className="box">
               <Link to="summation">
                 <img src="https://i.imgur.com/rWOzyea.gif" alt="summation Gif1"/>
@@ -71,6 +71,24 @@ class Home extends Component{
           </div>
         </div>  
       </div>
+    //   <div className="container">
+    //     <div className="project1">
+    //       <Link to="counter">
+    //         <img src={counterGif} alt="Counter Gif1"/> 
+    //       </Link>
+    //     </div>
+    //     <div className="project1">
+    //       <Link to="counter">
+    //         <img src={counterGif} alt="Counter Gif1"/> 
+    //       </Link>
+    //     </div> 
+    //     <div className="project1">
+    //     <Link to="counter">
+    //         <img src={counterGif} alt="Counter Gif1"/> 
+    //       </Link>
+    //     </div> 
+    // </div>
+
     );
   }
 }

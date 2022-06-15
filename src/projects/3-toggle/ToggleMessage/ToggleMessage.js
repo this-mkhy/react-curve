@@ -58,7 +58,7 @@ const ToggleMessage = () => {
             <div className="codeRight">
                 <Code />
             </div> 
-      </div>
+        </div>
     );
 }
 
