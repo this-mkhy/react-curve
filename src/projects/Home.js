@@ -1,11 +1,5 @@
 import React, {Component} from 'react';
 import Intro from './0-Intro/Intro';
-import counterGif from '../assets/counter.gif'
-import colorsGif from '../assets/colors.gif'
-import toggleGif from '../assets/toggle.gif'
-import inputGif from '../assets/handleInput.gif'
-import disableGif from '../assets/disableBtn.gif'
-
 import { Link } from "react-router-dom";
 import './home.css' 
 
@@ -22,7 +16,7 @@ class Home extends Component{
           <div className="box-1 boxing">
             <div className="box">
               <Link to="counter">
-                <img src={counterGif} alt="Counter Gif1"/> 
+                <img src='https://i.imgur.com/goaW9oQ.gif' alt="Counter Gif1"/> 
               </Link>
             </div>
           </div>
@@ -30,7 +24,7 @@ class Home extends Component{
           <div className="box-1 boxing">
             <div className="box">
               <Link to="colors">
-                <img src={colorsGif} alt="colors Gif2"/>
+                <img src='https://i.imgur.com/DZeh6pS.gif' alt="colors Gif2"/>
               </Link> 
             </div>
           </div>
@@ -38,7 +32,7 @@ class Home extends Component{
           <div className="box-1 boxing">
             <div className="box">
               <Link to="toggle">
-                <img src={toggleGif} alt="toggle Gif3"/> 
+                <img src='https://i.imgur.com/LIblmvn.gif' alt="toggle Gif3"/> 
               </Link>
             </div>
           </div>
@@ -49,7 +43,7 @@ class Home extends Component{
           <div className="box-1 boxing">
             <div className="box">
               <Link to="handle-input">
-                <img src={inputGif} alt="handleInput Gif1"/>
+                <img src='https://i.imgur.com/oSDwjiI.gif' alt="handleInput Gif1"/>
               </Link>
             </div>
           </div>
@@ -57,7 +51,7 @@ class Home extends Component{
           <div className="box-1 boxing">
             <div className="box">
               <Link to="disable-submit">
-                <img src={disableGif} alt="disableBtn Gif1"/>
+                <img src='https://i.imgur.com/nhnPIIR.gif' alt="disableBtn Gif1"/>
               </Link>
             </div>
           </div>
@@ -65,11 +59,24 @@ class Home extends Component{
           <div className="box-1 boxing">
             <div className="box">
               <Link to="summation">
-                <img src="https://i.imgur.com/rWOzyea.gif" alt="summation Gif1"/>
+                <img src="https://i.imgur.com/V9zwCUS.gif" alt="summation Gif1"/>
               </Link>
             </div>
           </div>
         </div>  
+
+         
+        <div className="box-container">  
+          <div className="box-1 boxing">
+            <div className="box">
+              <Link to="todo-add-v1">
+                <img src='https://i.imgur.com/8eXcruN.gif' alt="todo-add-v1 Gif1"/>
+              </Link>
+            </div>
+          </div>
+          
+        </div>  
+
       </div>
     //   <div className="container">
     //     <div className="project1">
