@@ -9,7 +9,7 @@ class Desc extends Component {
                 <h1 style={{color: '#3498db'}}>How to add to todo list ?</h1> 
                 <mark>Posted on Jun 30, 2022</mark>
                 <h3>Remember this concept, <br />Start s-m-a-l-l to create something BIG</h3>
-                <p>To create a SumTwoNum component. We have to : </p>
+                <p>To create a Todo-Add component. We have to : </p>
                 <ul style={{ fontSize: '20px'}}>
                     <li>Create three components, the parent TodoAddV1, ItemForm and PrintItems child components</li>
                     <li>In the parent TodoAddV1 component : </li>
