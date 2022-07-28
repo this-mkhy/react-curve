@@ -74,7 +74,14 @@ class Home extends Component{
               </Link>
             </div>
           </div>
-          
+
+          <div className="box-1 boxing">
+            <div className="box">
+              <Link to="todo-delete-v2">
+                <img src='https://i.imgur.com/HULWJgW.gif' alt="todo-delete-v2 Gif1"/>
+              </Link>
+            </div>
+          </div>
         </div>  
 
       </div>
