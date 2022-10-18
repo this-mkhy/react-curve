@@ -1,13 +1,11 @@
 .counter {
   grid-area: thecounter;
   margin-top: 20px;
-
 }
 
 .desc {
   grid-area: thedesc;
   margin-top: 20px;
-
 }
 
 .code {
@@ -31,11 +29,12 @@
   .container {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "thecounter thedesc" 
+      "thecounter thedesc"
       "thecode thecode";
   }
-  .desc, .code {
-    background: #c91b1b;    
+  .desc,
+  .code {
+    background: #c91b1b;
   }
 }
 
@@ -45,18 +44,15 @@
       "thecounter"
       "thedesc"
       "thecode";
-    background: #c91b1b; 
-
+    background: #c91b1b;
   }
   .counter {
-    font-size: 2rem; 
+    font-size: 2rem;
     /* background: #c91b1b;  */
-
   }
   .desc {
-    font-size: .9rem;
+    font-size: 0.9rem;
     /* background: #c91b1b;  */
-
   }
 }
 
@@ -81,10 +77,10 @@ button:hover {
 }
 
 a {
-  font-size: 33px;
+  /* font-size: 33px;
   display: block;
   width: 80px;
   margin: auto;
-  background: wheat;
+  background: wheat; */
   text-decoration: none;
 }
