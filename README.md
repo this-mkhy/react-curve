@@ -37,3 +37,8 @@ Live Preview: [React-Curve](https://this-react-curve.vercel.app/)
 **Read: [how-to-sum-two-numbers](https://dev.to/this_mkhy/week-6-sum-two-numbers-app-1800)**
 
 ![sum-two-numbers-app](https://i.imgur.com/rWOzyea.gif)
+
+## Contributors 
+<a align="center" href="https://github.com/this-mkhy/react-curve/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=this-mkhy/react-curve&&max=817" />
+</a>
