@@ -13,7 +13,7 @@ const ItemForm = (props) => {
 
   const handleSubmit = (ev) => {
     ev.preventDefault()
-    if (!item.name) return
+    if (!item.name || !item.name.replaceAll(' ', '')) return
     props.addItem(item)
     setItem(initialFormState)
   }
