@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Img from '../../../assets/displayColors.png'
 
 class Code extends Component { 
     render() {
