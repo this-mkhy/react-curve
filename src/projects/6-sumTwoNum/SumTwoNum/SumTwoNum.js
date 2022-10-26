@@ -38,7 +38,9 @@ const SumTwoNum = () => {
             </div>
             <div className="description">
                 <Desc />
+                <Link className='homeLink' to="/disable-submit" title='Disable Button'>Previous</Link>
                 <Link className='homeLink' to="/">Home</Link>
+                <Link className='homeLink' to="/todo-add-v1" title='Add To Todo'>Next</Link>
             </div> 
             <div className="codeRight">
                 <Code />

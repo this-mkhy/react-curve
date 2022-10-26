@@ -28,7 +28,9 @@ const TodoAddV1 = () => {
               </div>
             <div className="description">
                 <Desc />
+                <Link className='homeLink' to="/summation" title='Sum Two Numbers'>Previous</Link>
                 <Link className='homeLink' to="/">Home</Link>
+                <Link className='homeLink' to="/todo-delete-v2" title='Delete from Todo'>Next</Link>
             </div> 
             <div className="codeRight">
                 <Code />

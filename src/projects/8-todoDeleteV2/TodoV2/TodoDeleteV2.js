@@ -32,6 +32,7 @@ const TodoDeleteV2 = () => {
               </div>
             <div className="description">
                 <Desc />
+                <Link className='homeLink' to="/todo-add-v1" title='Add to Todo'>Previous</Link>
                 <Link className='homeLink' to="/">Home</Link>
             </div> 
             <div className="codeRight">
