@@ -1,0 +1,24 @@
+.mathExpDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+textarea {
+    width: 80%;
+    height: 300px;
+    font-size: large;
+    resize: vertical;
+}
+
+input {
+    width: 80%;
+    height: 50px;
+    font-size: large;
+}
+
+h1 {
+    color: aliceblue;
+}
