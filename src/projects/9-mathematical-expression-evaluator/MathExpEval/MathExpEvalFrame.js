@@ -25,7 +25,7 @@ const MathExpEvalFrame = () => {
 
 	const evaluate = async () => {
 		const value = await fetch(
-			`http://api.mathjs.org/v4/?expr=${encodeURIComponent(expression)}&precision=${precision}`
+			`https://api.mathjs.org/v4/?expr=${encodeURIComponent(expression)}&precision=${precision}`
 		);
 		const data = await value.text();
         console.log(data);
