@@ -26,7 +26,9 @@ const DisableButton = () => {
             </div>
             <div className="description">
                 <Desc />
+                <Link className='homeLink' to="/handle-input" title='Handle Input'>Previous</Link>
                 <Link className='homeLink' to="/">Home</Link>
+                <Link className='homeLink' to="/summation" title='Sum Two Numbers'>Next</Link>
             </div> 
             <div className="codeRight">
                 <Code />

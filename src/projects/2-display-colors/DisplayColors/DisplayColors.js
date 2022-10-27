@@ -49,8 +49,14 @@ const DisplayColors = () => {
       </div>
       <div className="description">
         <Desc />
+        <Link className="homeLink" to="/counter" title="Counter">
+          Previous
+        </Link>
         <Link className="homeLink" to="/">
           Home
+        </Link>
+        <Link className="homeLink" to="/handle-input" title="Handle Input">
+          Next
         </Link>
       </div>
       <div className="codeRight">

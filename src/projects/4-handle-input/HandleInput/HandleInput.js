@@ -25,7 +25,9 @@ const HandleInput = () => {
             </div>
             <div className="description">
                 <Desc />
+                <Link className='homeLink' to="/colors" title='Display Colors'>Previous</Link>
                 <Link className='homeLink' to="/">Home</Link>
+                <Link className='homeLink' to="/disable-submit" title='Disable Button'>Next</Link>
             </div> 
             <div className="codeRight">
                 <Code />

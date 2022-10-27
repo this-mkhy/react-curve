@@ -69,6 +69,7 @@ class Counter extends Component{
         <div className="description">
           <Desc />
           <Link className='homeLink' to="/">Home</Link>
+          <Link className='homeLink' to="/colors" title='Display Colors'>Next</Link>
         </div>
         <div className="codeRight">
           <Code />
