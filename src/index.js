@@ -29,6 +29,10 @@ const moon = "https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b
 var theme = "dark";
   const root = document.querySelector(":root");
   const container = document.getElementsByClassName("theme-container")[0];
+
+  const projectsection = document.getElementsByClassName('desc');
+  const projectsection1 = document.getElementsByClassName('projectName');
+  
   const themeIcon = document.getElementById("theme-icon");
   container.addEventListener("click", setTheme);
   function setTheme() {
@@ -48,6 +52,15 @@ var theme = "dark";
       "--bs-dark",
       "linear-gradient(318.32deg, #c3d1e4 0%, #dde7f3 55%, #d4e0ed 100%)"
     );
+
+    for (let i = 0; i < projectsection.length; i++) {
+        projectsection[i].style.setProperty("color","red");
+      }
+    for (let i = 0; i < projectsection1.length; i++) {
+        projectsection1[i].style.setProperty("background","white");
+        projectsection1[i].style.setProperty("color","black");
+      }
+
     container.classList.remove("shadow-dark");
     setTimeout(() => {
       container.classList.add("shadow-light");
@@ -59,6 +72,15 @@ var theme = "dark";
   function setDark() {
     root.style.setProperty("--bs-dark", "black");
     container.classList.remove("shadow-light");
+    
+    for (let i = 0; i < projectsection.length; i++) {
+        projectsection[i].style.setProperty("color","wheat");
+      }
+    for (let i = 0; i < projectsection1.length; i++) {
+        projectsection1[i].style.setProperty("background","black");
+        projectsection1[i].style.setProperty("color","wheat");
+      }
+
     setTimeout(() => {
       container.classList.add("shadow-dark");
       themeIcon.classList.remove("change");
