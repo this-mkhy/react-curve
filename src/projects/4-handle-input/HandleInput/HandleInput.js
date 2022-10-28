@@ -5,7 +5,9 @@ import Code from '../Code/Code';
 import Desc from '../Desc/Desc';
 
 import './../../projects.css' 
-import './HandleInput.css' 
+import styles from './HandleInput.module.css' 
+
+const {input, inputValue} = styles
 
 const HandleInput = () => {
     const [value, setValue] = useState("");
@@ -16,11 +18,12 @@ const HandleInput = () => {
                 <h2 style={{fontSize: '30px', color: '#3498db', marginTop: '10px'}}>Handle Input</h2>
                 <input
                     type="text"
+                    className={input}
                     placeholder="Enter Your Title"
                     value={value}
                     onChange={(e) => setValue(e.target.value)}
                 />
-                <p className="inputValue">{value}</p>
+                <p className={inputValue}>{value}</p>
 
             </div>
             <div className="description">
