@@ -41,13 +41,9 @@ import './../../projects.css'
 import styles from './counter.module.css'
 
   const {
-    container, 
-    projectName, 
     counterBtn, 
     counterNumber, 
-    description, 
-    homeLink, 
-    codeRight } = styles
+ } = styles
 class Counter extends Component{
 
   state = {
@@ -68,19 +64,19 @@ class Counter extends Component{
   
   render(){
     return (
-      <div className={container}>
-        <div className={projectName}>
+      <div className="container">
+        <div className="projectName">
           <h2 style={{fontSize: '30px', color: '#3498db', marginTop: '10px'}}>Counter</h2>
           <button className={counterBtn} onClick={this.increment}>Increase + </button>
           <h2 className={counterNumber}>{this.state.count}</h2>
           <button className={counterBtn} onClick={this.decrement}>Decrease - </button>
         </div>
-        <div className={description}>
+        <div className="description">
           <Desc />
-          <Link className={homeLink} to="/">Home</Link>
-          <Link className={homeLink} to="/colors" title='Display Colors'>Next</Link>
+          <Link className="homeLink" to="/">Home</Link>
+          <Link className="homeLink" to="/colors" title='Display Colors'>Next</Link>
         </div>
-        <div className={codeRight}>
+        <div className="codeRight">
           <Code />
         </div> 
       </div>
