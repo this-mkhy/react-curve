@@ -5,7 +5,9 @@ import Code from '../Code/Code';
 import Desc from '../Desc/Desc';
 
 import './../../projects.css' 
-import './SumTwoNum.css' 
+import styles from './SumTwoNum.module.css' 
+
+const {input, submitBtn, inputValue} = styles
 
 const SumTwoNum = () => {
     const [number1, setNumber1] = useState();
@@ -22,19 +24,21 @@ const SumTwoNum = () => {
                 <h2 style={{fontSize: '30px', color: '#3498db', marginTop: '10px'}}>Sum Two Numbers</h2>
                 <input
                     placeholder="First Number"
+                    className={input}
                     type="number"
                     value={number1}
                     onChange={(ev) => setNumber1(+ev.target.value)}
                 />
                 <input
                     placeholder="Second Number"
+                    className={input}
                     type="number"
                     value={number2}
                     onChange={(ev) => setNumber2(+ev.target.value)}
                 />
                 <br />
-                <button className="submitBtn" onClick={calculate}>Sum Two Numbers</button>
-                <p className="inputValue">Summation  : {summation || "0"}</p>
+                <button className={submitBtn} onClick={calculate}>Sum Two Numbers</button>
+                <p className={inputValue}>Summation  : {summation || "0"}</p>
             </div>
             <div className="description">
                 <Desc />
