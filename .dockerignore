@@ -1,1 +1,15 @@
-/node_modules
+node_modules/
+.git
+.github/
+.vscode/
+assets/
+build/
+coverage/
+doc/
+docs/
+logs/
+.gitignore
+README.md
+.dockerignore
+docker-compose.yml
+Dockerfile
