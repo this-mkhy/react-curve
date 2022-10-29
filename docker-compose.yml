@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  app:
+    container_name: docker-react-curve-c
+    image: docker-react-curve-i
+    build:
+      context: .
+    ports:
+      - 8080:80
