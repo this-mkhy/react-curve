@@ -5,7 +5,9 @@ import Code from '../Code/Code';
 import Desc from '../Desc/Desc';
 
 import './../../projects.css' 
-import './DisableButton.css' 
+import styles from './DisableButton.module.css' 
+
+const {input, inputValue, submitBtn} = styles
 
 const DisableButton = () => {
     const [value, setValue] = useState("");
@@ -16,13 +18,14 @@ const DisableButton = () => {
                 <h2 style={{fontSize: '30px', color: '#3498db', marginTop: '10px'}}>Disable Button</h2>
                 <input
                     type="text"
+                    className={input}
                     placeholder="Enter Your Title"
                     value={value}
                     onChange={(e) => setValue(e.target.value)}
                 />
                 <br />
-                <button className="submitBtn" disabled={value.length < 1}>Submit</button>
-                <p className="inputValue">{value}</p>
+                <button className={submitBtn} disabled={value.length < 1}>Submit</button>
+                <p className={inputValue}>{value}</p>
             </div>
             <div className="description">
                 <Desc />
