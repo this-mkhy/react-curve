@@ -5,7 +5,9 @@ import Code from "../Code/Code";
 import Desc from "../Desc/Desc";
 
 import "./../../projects.css";
-import "./displayColors.css";
+import styles from "./displayColors.module.css";
+
+const {currColor, curr} = styles
 
 const DisplayColors = () => {
   const colors = [
@@ -23,8 +25,7 @@ const DisplayColors = () => {
   const colorItems = colors.map((color) => (
     <li
       key={color.id}
-      className="currColor"
-      id="curr"
+      className={`${currColor} ${curr}`}
       style={{
         backgroundColor: `${color.hex}`,
       }}
