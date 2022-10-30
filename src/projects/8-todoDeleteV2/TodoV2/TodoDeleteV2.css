@@ -39,7 +39,7 @@ input[type="text"]:focus {
   list-style: none;
   /* font-size: 1.2em; */
   /* list-style-type: square; */
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   text-decoration-color: rgb(255, 255, 255)
 
 }

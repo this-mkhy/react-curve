@@ -38,10 +38,17 @@ input[type="text"]:focus {
 .listItem {
   list-style: none;
   /* font-size: 1.2em; */
-  /* list-style-type: square; */
-  text-decoration: line-through;
-  text-decoration-color: rgb(255, 255, 255)
+  /* list-style-type: square; */  
+  text-decoration-color: rgb(255, 255, 255);
+}
 
+.checked {
+  text-decoration: line-through;
+}
+
+.listItem:hover {
+  color: black;
+  background-color: rgb(92, 92, 92);
 }
    
 .no-item{
