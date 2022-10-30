@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Home from './projects/Home';
 import { Route, Routes } from "react-router-dom";
 import Counter from './projects/1-counter/Counter/Counter';
@@ -9,10 +9,11 @@ import DisableButton from './projects/5-disable-button/DisableButton/DisableButt
 import SumTwoNum from './projects/6-sumTwoNum/SumTwoNum/SumTwoNum'
 import TodoAddV1 from './projects/7-todoAddV1/TodoV1/TodoAddV1'
 import TodoDeleteV2 from './projects/8-todoDeleteV2/TodoV2/TodoDeleteV2'
+import Pomodoro from './projects/9-pomodoro-timer/PomodoroTimer/components/Controls'
 
-class App extends Component{
-   
-  render(){
+class App extends Component {
+
+  render() {
     return (
       <div className="App">
         <Routes>
@@ -25,7 +26,10 @@ class App extends Component{
           <Route exact path="/summation" element={<SumTwoNum />}></Route>
           <Route exact path="/todo-add-v1" element={<TodoAddV1 />}></Route>
           <Route exact path="/todo-delete-v2" element={<TodoDeleteV2 />}></Route>
-        </Routes> 
+          <Route exact path="/pomodoro" element={<Pomodoro />}></Route>
+
+        </Routes>
+
       </div>
     );
   }
