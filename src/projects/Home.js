@@ -95,6 +95,19 @@ class Home extends Component {
               </Link>
             </div>
           </div>
+
+          <div className="box-1 boxing">
+            <div className="box">
+              <Link to="mathematical-expression-evaluator">
+                <img
+                  style={{ width: "100%", height: "20rem", objectFit: "fill" }}
+                  src="https://i.imgur.com/ELDTVoQ.gif"
+                  alt="mathematical-expression-evaluator Gif1"
+                  className="img-resp"
+                />
+              </Link>
+            </div>
+          </div>
         </div>
 
         <div className="box-container"></div>
