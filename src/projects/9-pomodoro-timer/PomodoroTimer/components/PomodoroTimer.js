@@ -50,6 +50,7 @@ export default function Pomodoro({ time }) {
                 setSeconds(seconds - 1);
             }
         }, 1000);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [seconds]);
 
     const timerMinutes = minutes < 10 ? `0${minutes}` : minutes;
