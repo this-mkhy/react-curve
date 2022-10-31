@@ -8,9 +8,7 @@ import Code from '../Code/Code';
 import Desc from '../Desc/Desc';
 
 import './../../projects.css' 
-import styles from './TodoAddV1.module.css' 
-
-const {} = styles
+import './TodoAddV1.module.css' 
 
 const TodoAddV1 = () => {
     const [lists, setLists] = useState([])
