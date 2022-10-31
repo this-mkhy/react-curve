@@ -10,12 +10,14 @@ import SumTwoNum from './projects/6-sumTwoNum/SumTwoNum/SumTwoNum'
 import TodoAddV1 from './projects/7-todoAddV1/TodoV1/TodoAddV1'
 import TodoDeleteV2 from './projects/8-todoDeleteV2/TodoV2/TodoDeleteV2'
 import Pomodoro from './projects/9-pomodoro-timer/PomodoroTimer/components/Controls'
+import Header from './projects/header/Header';
 
 class App extends Component {
 
   render() {
     return (
       <div className="App">
+        <Header/>
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/counter" element={<Counter />}></Route>
