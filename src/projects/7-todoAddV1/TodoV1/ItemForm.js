@@ -1,5 +1,7 @@
 import React, {useState} from 'react'; 
-import './TodoAddV1.css' 
+import styles from './TodoAddV1.module.css' 
+
+const {input, submitBtn} = styles
 
 const ItemForm = (props) => {
   const initialFormState = { id: null, name: '' }
@@ -24,12 +26,13 @@ const ItemForm = (props) => {
         <label>Enter Item</label> <br />
         <input
           type="text"
+          className={input}
           name="name"
           value={item.name}
           onChange={handleInputChange}
         />
         <br />
-        <button className="submitBtn">Add new item</button>
+        <button className={submitBtn}>Add new item</button>
       </form>
     </div>
   );
