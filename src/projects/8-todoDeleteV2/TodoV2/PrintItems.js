@@ -1,21 +1,23 @@
 import React from 'react';
 
-import './TodoDeleteV2.css' 
+import styles from './TodoDeleteV2.module.css' 
+
+const {todoList, listItem, noItem} = styles
 
 const PrintItems = (props) => {
   return (
     <div className="PrintItems">
       {props.lists.length > 0 ? (
         props.lists.map((item) => (
-          <ul className='todoList' key={item.id}>
-            <li className='listItem'>{item.name}</li>
+          <ul className={todoList} key={item.id}>
+            <li className={listItem}>{item.name}</li>
             <button onClick={() => props.deleteItem(item.id)} style={{ backgroundColor: 'red' }}>
               Delete
             </button>
           </ul>
         ))
       ) : (
-        <div className='no-item'>
+        <div className={noItem}>
           No items
         </div>
       )}
