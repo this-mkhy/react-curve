@@ -8,7 +8,7 @@ import Code from '../Code/Code';
 import Desc from '../Desc/Desc';
 
 import './../../projects.css' 
-import './TodoDeleteV2.css' 
+import './TodoDeleteV2.module.css' 
 
 const TodoDeleteV2 = () => {
     const [lists, setLists] = useState([])
