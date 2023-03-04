@@ -95,6 +95,9 @@ class Home extends Component {
               </Link>
             </div>
           </div>
+
+         
+
         </div>
 
         <div className="box-container"></div>
