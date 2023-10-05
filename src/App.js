@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header/>
+        <Header />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/counter" element={<Counter />}></Route>
@@ -29,9 +29,7 @@ class App extends Component {
           <Route exact path="/todo-add-v1" element={<TodoAddV1 />}></Route>
           <Route exact path="/todo-delete-v2" element={<TodoDeleteV2 />}></Route>
           <Route exact path="/pomodoro" element={<Pomodoro />}></Route>
-
         </Routes>
-
       </div>
     );
   }
