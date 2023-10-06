@@ -3,7 +3,7 @@ import './PomodoroTimer.css';
 import styled, { keyframes } from 'styled-components';
 
 const Message = styled.p`
-  font-size: 1em;
+  font-size: .8em;
   text-align: center;
   color: palevioletred;
   margin-top: 0rem
@@ -23,8 +23,6 @@ const Rotate = styled.div`
   padding: 2rem 1rem;
   font-size: 2rem;
 `;
-
-
 
 export default function Pomodoro({ time }) {
     const [minutes, setMinutes] = useState(time.focus);
@@ -61,8 +59,6 @@ export default function Pomodoro({ time }) {
             <div className="pomodoro">
                 <div className="message">
                     <Message>< Rotate >⏳ </Rotate>{displayMessage ? "Break Time:" : "Focus Time:"}</Message>
-                </div>
-                <div className="timer">
                     {timerMinutes}:{timerSeconds}
                 </div>
             </div>
