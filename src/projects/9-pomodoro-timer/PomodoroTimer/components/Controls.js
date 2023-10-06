@@ -69,8 +69,8 @@ export default function Control() {
             </div>
             <div className="description">
                 <Desc />
+                <Link className='homeLink' to="/todo-delete-v2" title='Delete Todo'>Previous</Link>
                 <Link className="homeLink" to="/">Home</Link>
-                <Link className="homeLink" to="/colors" title='Display Colors'>Next</Link>
             </div>
             <div className="codeRight">
                 <Code />
