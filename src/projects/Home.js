@@ -96,7 +96,17 @@ class Home extends Component {
             </div>
           </div>
 
-
+          <div className="box-1 boxing">
+            <div className="box">
+              <Link to="pomodoro">
+                <img
+                  src="https://i.imgur.com/hhAzBfZ.gif"
+                  alt="pomodoro Gif1"
+                  className="img-resp"
+                />
+              </Link>
+            </div>
+          </div>
 
         </div>
 
