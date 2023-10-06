@@ -6,7 +6,7 @@ import "./home.css";
 class Home extends Component {
   render() {
     return (
-      <div className="Home">
+      <div className="home">
         <div id="header-container">
           <div id="box-0">
             <Intro />
@@ -96,7 +96,7 @@ class Home extends Component {
             </div>
           </div>
 
-         
+
 
         </div>
 
