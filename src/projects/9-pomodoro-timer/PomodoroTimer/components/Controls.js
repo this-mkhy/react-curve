@@ -2,8 +2,11 @@ import { useState } from 'react';
 import Pomodoro from './PomodoroTimer';
 import Header from './Header'
 import styled from 'styled-components';
+import './../../../projects.css'
+import { Link } from "react-router-dom";
 
-
+import Code from './../../Code/Code';
+import Desc from './../../Desc/Desc';
 
 const Button = styled.button`
   color: palevioletred;
@@ -50,19 +53,28 @@ export default function Control() {
         setTime({ ...time, break: breakTime });
     }
     return (
-        <>
-            <Header />
-            <div className="form">
-                <div>
-                    <Input placeholder="Focus Time:(In minutes)" onChange={handleFocusTime} />
-                    <Input placeholder="Break Time: In minutes" onChange={handleBreakTime} />
+        <div className="container">
+            <div className="projectName">
+                <Header />
+                <div className="form">
+                    <div>
+                        <Input placeholder="Focus Time:(In minutes)" onChange={handleFocusTime} />
+                        <Input placeholder="Break Time: In minutes" onChange={handleBreakTime} />
+                    </div>
+                    <Button onClick={handleStart}>{start ? 'Stop' : 'Start'}</Button>
+                    {
+                        start && <Pomodoro time={time} />
+                    }
                 </div>
-                <Button onClick={handleStart}>{start ? 'Stop' : 'Start'}</Button>
             </div>
-            {
-                start && <Pomodoro time={time} />
-            }
-
-        </>
+            <div className="description">
+                <Desc />
+                <Link className="homeLink" to="/">Home</Link>
+                <Link className="homeLink" to="/colors" title='Display Colors'>Next</Link>
+            </div>
+            <div className="codeRight">
+                <Code />
+            </div>
+        </div>
     )
 }
