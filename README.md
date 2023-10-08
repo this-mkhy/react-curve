@@ -47,16 +47,17 @@ Live Preview: [React-Curve](https://this-react-curve.vercel.app/)
 ### Week 7 -  Todo Add App
 
 ***Read: [how-to-add-to-todo-list](https://dev.to/this_mkhy/week-7-todo-add-app-45lc)**
+
 ![todo-add-app](https://i.imgur.com/8eXcruN.gif)
 
 ### Week 8 -  Todo Delete App
 
 ***Read: [how-to-delete-from-todo-list](https://dev.to/this_mkhy/week-8-todo-delete-app-20b5)**
+
 ![todo-delete-app](https://i.imgur.com/HULWJgW.gif)
 
 ### Week 9 -  Pomodoro Timer
 
-***Read: [how-to-code-the-pomodoro-timer]**
 ![pomodoro-timer-app](https://i.imgur.com/hhAzBfZ.gif)
 
 ## Docker 🐳
